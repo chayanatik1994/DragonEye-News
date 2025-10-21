@@ -1,0 +1,15 @@
+import React from 'react';
+import SocialLogin from '../components/homelayout/SocialLogin';
+import FindUs from '../components/homelayout/FindUs';
+
+const RightAside = () => {
+    return (
+        <div className='space-y-8'>
+          <SocialLogin></SocialLogin>
+          <FindUs></FindUs>
+          <QZone
+        </div>
+    );
+};
+
+export default RightAside;
