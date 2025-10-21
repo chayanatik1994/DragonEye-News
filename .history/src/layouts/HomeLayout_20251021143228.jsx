@@ -29,7 +29,7 @@ const HomeLayout = () => {
             {/* Main content section with left and right sidebar */}
             <main className='w-11/12 mx-auto my-3  grid grid-cols-12 gap-5'>
                 {/* Left sidebar */}
-                <aside className='col-span-3 sticky top-0 h-fit'>
+                <aside className='col-span-3 sticky top-2 h-fit'>
                     <LeftAside></LeftAside>
                 </aside>
 
@@ -39,7 +39,7 @@ const HomeLayout = () => {
                 </section>
 
                 {/* Right sidebar */}
-                <aside className='col-span-3 sticky top-0 h-fit'>
+                <aside className='col-span-3'>
                     <RightAside></RightAside>
                 </aside>
             </main>
